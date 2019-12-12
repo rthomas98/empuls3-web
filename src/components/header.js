@@ -3,9 +3,13 @@ import React from "react"
 
 const Header = () => (
   <header>
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
-      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <span>
+          empuls3
+        </span>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -20,7 +24,7 @@ const Header = () => (
             <NavDropdown.Item href="/wordpress-development">Wordpress Development</NavDropdown.Item>
             <NavDropdown.Item href="/mobile-development">Mobile Development</NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="Marketing Stratigies" id="basic-nav-dropdown">
+          <NavDropdown title="Marketing Strategies" id="basic-nav-dropdown">
             <NavDropdown.Item href="/marketing-overview">Marketing Overview</NavDropdown.Item>
             <NavDropdown.Item href="/ui-ux-design">Analytics and Conversion Tracking</NavDropdown.Item>
             <NavDropdown.Item href="/email-marketing">Email Marketing</NavDropdown.Item>
