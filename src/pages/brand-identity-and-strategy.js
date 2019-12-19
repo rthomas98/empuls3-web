@@ -109,8 +109,6 @@ const BrandPage = () => (
                 <p>
                     Our strategy team helps to polish the foundation of both novice and established brands, creating opportunities for great storytelling and communications for our clients.
                 </p>
-
-
             </Col>
         </Row>
           <Row className="mb-5">
