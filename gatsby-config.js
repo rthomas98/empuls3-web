@@ -32,5 +32,11 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: '610613414e1dbea2ce9e55cf8&amp;id=900bdfe01c'
+      },
+    }
   ],
 }

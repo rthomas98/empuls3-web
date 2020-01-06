@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Media } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Development from "../components/development-cta";
@@ -16,7 +16,7 @@ const MobilePage = () => (
 
     <Container fluid={true} className="mb-5">
         <Row>
-            <Col sm={12} md={12} lg={6} className="">
+            <Col sm={12} md={12} lg={6}>
                 <div className="txt-overlay">
                     <MobileBanner/>
                     <div className="bottom-left p-3">
@@ -125,7 +125,7 @@ const MobilePage = () => (
                   </div>
               </Col>
           </Row>
-          <Row>
+          <Row className="mb-5">
               <Col lg={12}>
                   <h2>
                       Expertise in Cross-platform App Development
@@ -136,6 +136,91 @@ const MobilePage = () => (
                   <p>
                       To start, our team can work with you to find out which platforms would be best suited for your mobile app. Cross-platform development will depend on several factors, including which devices your clients, customers, or employees most often use. Taking the time to conduct market research will lead to more successful outcomes; it’s one of the factors that set us apart as a cross-platform mobile app development company.
                   </p>
+              </Col>
+          </Row>
+          <Row className="mb-3">
+              <Col lg={12} className="text-center">
+                  <h3>
+                      Our Mobile App Development Process
+                  </h3>
+                  <p className="lead">
+                      Explore the wide-ranging advantages that encourage worldwide clients to choose our iOS app development services.
+                  </p>
+              </Col>
+          </Row>
+          <Row className="mb-4">
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media className="bg-purple rounded p-4 process-item">
+                      <Media.Body>
+                          <h5 className="txt-yellow">Research</h5>
+                          <p>
+                              Once the client reaches us with the app idea, we do an in-depth analysis on the basis of demographics, behavior patterns, and target audience to refine the idea into a solid basis for an application.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media>
+                      <Media.Body className="bg-purple rounded p-4 process-item">
+                          <h5 className="txt-yellow">Wireframing</h5>
+                          <p>
+                              Based on the client’s requirements, our experienced team of UI/UX designers will create the Wireframe of the visualized idea that clearly defines the user’s journey.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+          </Row>
+          <Row className="mb-4">
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media className="bg-purple rounded p-4 process-item">
+                      <Media.Body>
+                          <h5 className="txt-yellow">Prototyping</h5>
+                          <p>
+                              We make a set of prototypes for the app that serves as a quick source to view how the app works. We employ the industry’s best techniques to design prototypes and assure that things are going in the right direction.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media>
+                      <Media.Body className="bg-purple rounded p-4 process-item">
+                          <h5 className="txt-yellow">Design & Development</h5>
+                          <p>
+                              We follow the best development practices as per Human Interface Guidelines and start the development process. Our development capabilities provide a unique competitive advantage to your app.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+          </Row>
+          <Row className="mb-5">
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media className="bg-purple rounded p-4 process-item">
+                      <Media.Body>
+                          <h5 className="txt-yellow">Testing and QA</h5>
+                          <p>
+                              Our qualified and experienced QA team works the Standard and automated mobile app testing & analysis. We assure quality more than anything. Get a bug-free, established and approved mobile app with us.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+              <Col sm={12} md={12} lg={6} className="mb-4 mb-md-4 mb-lg-0">
+                  <Media>
+                      <Media.Body className="bg-purple rounded p-4 process-item">
+                          <h5 className="txt-yellow">Deployment to Live Server</h5>
+                          <p>
+                              Once the developed app fulfills your expectations, we take your app to live as per your launch plan.
+                          </p>
+                      </Media.Body>
+                  </Media>
+              </Col>
+          </Row>
+          <Row className="mb-5">
+              <Col lg={12} className="text-center">
+                  <h2>Choose Empuls3 for Mobile Application Development</h2>
+                  <p className="lead">
+                      Let’s innovate together. Whether you are a start-up, a business enterprise or Fortune 500 company, <br/>hire our expert App development team today, to digitalize your business.
+                  </p>
+                  <Link to="contact-us" className="btn btn-yellow btn-lg">get a free quote</Link>
               </Col>
           </Row>
       </Container>

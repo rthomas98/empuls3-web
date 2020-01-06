@@ -2,6 +2,9 @@
 import React from "react"
 import { Row, Col, Container } from "react-bootstrap"
 import {Link} from "gatsby";
+import DevIcon from "./icons/dev-icon";
+import WordPressIcon from "./icons/wordpress-icon";
+import MobileIcon from "./icons/mobile-icon";
 
 const Development = () => (
     <Container className="mb-5">
@@ -18,6 +21,7 @@ const Development = () => (
             <Col sm={6} md={12} lg={4} className="text-center">
                 <div className="single-service d-flex justify-content-center">
                     <div className="my-auto col">
+                        <DevIcon/>
                         <h4>Web Development</h4>
                         <p className="text-muted">
                             We leverage the latest technical tools and trends to create the highest standard of quality in web development services from concept to launch and way beyond.
@@ -29,6 +33,7 @@ const Development = () => (
             <Col sm={6} md={12} lg={4} className="text-center">
                 <div className="single-service d-flex justify-content-center">
                     <div className="my-auto col">
+                        <WordPressIcon/>
                         <h4>WordPress Development</h4>
                         <p className="text-muted">
                             Our experts with incredible knowledge and years of skill guarantee that your business achieves unrivaled position and sets another level of accomplishment.
@@ -41,6 +46,7 @@ const Development = () => (
             <Col sm={6} md={12} lg={4} className="text-center">
                 <div className="single-service d-flex justify-content-center">
                     <div className="my-auto col">
+                        <MobileIcon/>
                         <h4>Mobile Development</h4>
                         <p className="text-muted">
                             If you’re serious about getting apps to improve the way your business operates, or launching high-end and beautiful mobile apps for iOS and Android.

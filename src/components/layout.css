@@ -215,8 +215,8 @@ textarea {
 /* ==========================================================================
   Nav styles
   ========================================================================== */
+
 .navbar-brand img {
-    display: inline-block;
 }
 .navbar-brand span {
     font-family: 'Asap', sans-serif;
@@ -574,6 +574,10 @@ p.tagline {
     display: none !important;
 }
 
+.ppc-box {
+    height: 352px;
+}
+
 .single-service {
     position: relative;
     text-align: center;
@@ -717,207 +721,6 @@ p.tagline {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 1024px) {
-    p {
-        font-size: 13px;
-    }
-    .btn {
-        font-size: 14px;
-    }
-    .banner h1 {
-        color: white;
-        font-size: 28px;
-        text-transform: uppercase;
-    }
-    h2, .h2 {
-        font-size: 18px;
-    }
-    h3, .h3 {
-        font-size: 18px;
-    }
-    h4, .h4 {
-        font-size: 18px;
-    }
-    .sub-header h1 {
-        color: white;
-        font-size: 24px;
-        text-transform: uppercase;
-    }
-    .lead {
-        font-size: 14px;
-    }
-    .cd-logo img {
-        display: inline-block;
-        margin-right: 10px;
-        margin-top: -3px;
-    }
-    .cd-overlay.is-visible {
-        width: 126%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .banner h1 {
-        color: white;
-    }
-}
-
-@media (max-width: 992px) {
-    .bottom-text-overlay {
-        position: absolute;
-        text-align: center;
-        width: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .mobile-img {
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cd-overlay.is-visible {
-        width: 134%;
-    }
-}
-
-@media (max-width: 736px) {
-    .banner h1 {
-        color: white;
-        font-size: 17px;
-    }
-    .sub-header h1 {
-        color: white;
-        font-size: 15px;
-    }
-    p.lead {
-        font-size: 13px;
-    }
-    .cd-overlay.is-visible {
-        width: 137%;
-    }
-}
-
-@media (max-width: 414px) {
-
-    body {
-        text-align: center;
-    }
-
-    .pb-5, .py-5 {
-        padding-bottom: 1rem !important;
-    }
-
-    p.lead {
-        font-size: 12px;
-    }
-
-    .banner {
-        height: 35vh;
-    }
-
-    .banner h1 {
-        color: var(--purple);
-        margin-top: 20px;
-        font-size: 19px;
-    }
-
-    .banner p {
-        color: var(--gray);
-    }
-
-    .img-none {
-        display: none;
-    }
-
-    .m-mb-4 {
-        margin-bottom: 30px;
-    }
-
-    .img-content-left {
-        position: initial;
-    }
-
-    .sub-header h1 {
-        color: var(--purple);
-    }
-
-    .sub-header p.lead {
-        margin-bottom: 0 !important;
-    }
-
-    .sub-header p {
-        color: var(--gray);
-        margin-bottom: 30px !important;
-    }
-
-    .bg-pink-half {
-        background: var(--pink) !important;
-        height: auto;
-        padding-bottom: 20px;
-    }
-
-    .bg-pink-half h1 {
-        color: white;
-    }
-
-    .bg-pink-half p {
-        color: white;
-    }
-
-    h5, .h5 {
-        font-size: 1rem;
-    }
-
-    .process-item {
-        background-color: var(--purple);
-        color: white;
-        padding: 30px;
-        height: 250px;
-        min-height: 200px;
-    }
-
-    .m-banner {
-        height: 300px !important;
-    }
-
-    .light-text p {
-        color: var(--purple);
-    }
-
-    .min-height {
-        height: 250px;
-    }
-
-    .cta-color h2 {
-        color: var(--purple);
-    }
-
-    .cta-color p {
-        color: var(--gray);
-    }
-
-    .sub-header-h {
-        height: auto;
-    }
-
-    .media {
-        display: block;
-    }
-
-    .media i {
-        margin-bottom: 30px;
-    }
-
-    @media print,
-    (-webkit-min-device-pixel-ratio: 1.25),
-    (min-resolution: 1.25dppx),
-    (min-resolution: 120dpi) {
-        /* Style adjustments for high resolution devices */
-    }
-
 
     /* ==========================================================================
        Print styles.
@@ -992,6 +795,5 @@ p.tagline {
             page-break-after: avoid;
         }
     }
-}
 
 

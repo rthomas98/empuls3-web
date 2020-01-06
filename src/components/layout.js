@@ -61,12 +61,6 @@ const Layout = ({ children }) => {
                 </p>
               </Col>
             </Row>
-            <Row className="mb-4">
-                <Col>
-                  <h4 className="text-center">Our Newsletter</h4>
-                  <p className="lead text-center">Stay ahead of the curve with insight in our monthly newsletter</p>
-                </Col>
-            </Row>
             <Row className="">
               <Col className="text-center">
                 <Nav className="justify-content-center">

@@ -1,11 +1,13 @@
 import { Navbar, Nav, NavDropdown, Container   } from "react-bootstrap"
 import React from "react"
+import LogoIcon from "./icons/logo-icon";
 
 const Header = () => (
   <header>
     <Navbar expand="lg">
       <Container>
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/" className="logo">
+        <LogoIcon/>
         <span>
           empuls3
         </span>
@@ -26,7 +28,7 @@ const Header = () => (
           </NavDropdown>
           <NavDropdown title="Marketing Strategies" id="basic-nav-dropdown">
             <NavDropdown.Item href="/marketing-overview">Marketing Overview</NavDropdown.Item>
-            <NavDropdown.Item href="/ui-ux-design">Analytics and Conversion Tracking</NavDropdown.Item>
+            <NavDropdown.Item href="/analytics-and-conversion-tracking">Analytics and Conversion Tracking</NavDropdown.Item>
             <NavDropdown.Item href="/email-marketing">Email Marketing</NavDropdown.Item>
             <NavDropdown.Item href="/ppc-management">Pay-Per-Click Management</NavDropdown.Item>
             <NavDropdown.Item href="/search-engine-optimization">Search Engine Optimization (SEO)</NavDropdown.Item>
