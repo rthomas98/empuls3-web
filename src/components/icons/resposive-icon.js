@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const BrowserIcon = () => {
+const ResponsiveIcon = () => {
     const data = useStaticQuery(graphql`
         query {
-            browserIcon: file(relativePath: { eq: "browser-duotone.png" }) {
+            responsiveIcon: file(relativePath: { eq: "layer-group-duotone.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 2400) {
                         ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const BrowserIcon = () => {
         }
     `)
 
-    return <Img fluid={data.browserIcon.childImageSharp.fluid} alt="" className="img-fluid mx-auto d-block mb-4" style={{ width: 50 }} />
+    return <Img fluid={data.responsiveIcon.childImageSharp.fluid} alt="" className="img-fluid mx-auto d-block mb-4" style={{ width: 50 }} />
 }
 
-export default BrowserIcon
+export default ResponsiveIcon

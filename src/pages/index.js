@@ -10,6 +10,8 @@ import BannerImgOne from "../components/landing/banner-img-one";
 import BannerImgTwo from "../components/landing/banner-img-two";
 import HomeServicesImg from "../components/landing/home-services"
 import HomeAboutImg from "../components/landing/home-about"
+import RecentWorks from "../components/recent-work";
+import Marketing from "../components/marketing-cta";
 
 
 const IndexPage = () => (
@@ -173,6 +175,8 @@ const IndexPage = () => (
          </Container>
      </div>
 
+      <RecentWorks/>
+
       <Container fluid={true} className="p-0 mb-5">
           <div className="txt-overlay">
               <HomeAboutImg/>
@@ -199,6 +203,8 @@ const IndexPage = () => (
               </div>
           </div>
       </Container>
+
+      <Marketing/>
 
   </Layout>
 );

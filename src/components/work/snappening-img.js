@@ -13,12 +13,12 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const BrowserIcon = () => {
+const SnappeningImg = () => {
     const data = useStaticQuery(graphql`
         query {
-            browserIcon: file(relativePath: { eq: "browser-duotone.png" }) {
+            snappeningImg: file(relativePath: { eq: "Snappening.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 2400) {
+                    fluid(maxWidth: 1170) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -26,7 +26,7 @@ const BrowserIcon = () => {
         }
     `)
 
-    return <Img fluid={data.browserIcon.childImageSharp.fluid} alt="" className="img-fluid mx-auto d-block mb-4" style={{ width: 50 }} />
+    return <Img fluid={data.snappeningImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
 }
 
-export default BrowserIcon
+export default SnappeningImg
