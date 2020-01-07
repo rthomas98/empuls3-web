@@ -26,7 +26,7 @@ const LogoIcon = () => {
         }
     `)
 
-    return <Img fluid={data.logoIcon.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 25 }} />
+    return <Img fluid={data.logoIcon.childImageSharp.fluid} alt="" className="img-fluid icon" style={{ width: 30 }} />
 }
 
 export default LogoIcon

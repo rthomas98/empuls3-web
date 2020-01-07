@@ -216,13 +216,16 @@ textarea {
   Nav styles
   ========================================================================== */
 
-.navbar-brand img {
+.navbar-brand .icon {
+    display: inline-block;
 }
 .navbar-brand span {
     font-family: 'Asap', sans-serif;
     color: var(--purple);
     margin-left: 10px;
+    margin-top: 1px;
     display: inline-block;
+    position: absolute;
 }
 
 .navbar-light .navbar-nav .nav-link {
