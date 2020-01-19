@@ -65,19 +65,19 @@ const Layout = ({ children }) => {
               <Col className="text-center">
                 <Nav className="justify-content-center">
                   <Nav.Item>
-                    <Nav.Link href="https://www.facebook.com/empuls3/" target="_blank">facebook</Nav.Link>
+                    <Nav.Link href="https://www.facebook.com/empuls3/" target="_blank" rel="noopener">facebook</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href="https://twitter.com/empuls3" target="_blank" eventKey="link-1">twitter</Nav.Link>
+                    <Nav.Link href="https://twitter.com/empuls3" target="_blank" rel="noopener" eventKey="link-1">twitter</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href="https://www.linkedin.com/company/28631371/admin/" target="_blank" eventKey="link-2">linkedin</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/company/28631371/admin/" rel="noopener" target="_blank" eventKey="link-2">linkedin</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href="https://www.instagram.com/empuls3/?hl=en" target="_blank" eventKey="link-2">instagram</Nav.Link>
+                    <Nav.Link href="https://www.instagram.com/empuls3/?hl=en" rel="noopener" target="_blank" eventKey="link-2">instagram</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href="https://dribbble.com/empuls3" target="_blank" eventKey="link-2">Dribbble</Nav.Link>
+                    <Nav.Link href="https://dribbble.com/empuls3" target="_blank" rel="noopener" eventKey="link-2">Dribbble</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>

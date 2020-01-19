@@ -37,18 +37,18 @@ const ContactPage = () => (
       <Container>
           <Row>
               <Col>
-                  <form name="contact" method="POST" data-netlify="true">
+                  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                      <Row>
                          <Col sm={12} md={12} lg={6}>
                              <div className="form-group">
                                  <label>Full Name: </label>
-                                 <input type="text" name="name" className="form-control" />
+                                 <input type="text" name="name" className="form-control" required />
                              </div>
                          </Col>
                          <Col sm={12} md={12} lg={6}>
                              <div className="form-group">
                                  <label>Company: </label>
-                                 <input type="text" name="company" className="form-control" />
+                                 <input type="text" name="company" className="form-control" required />
                              </div>
                          </Col>
                      </Row>
@@ -56,13 +56,13 @@ const ContactPage = () => (
                           <Col sm={12} md={12} lg={6}>
                               <div className="form-group">
                                   <label>Your Email:</label>
-                                  <input type="email" name="email" className="form-control" />
+                                  <input type="email" name="email" className="form-control" required />
                               </div>
                           </Col>
                           <Col sm={12} md={12} lg={6}>
                               <div className="form-group">
                                   <label>Phone: </label>
-                                  <input type="text" name="phone" className="form-control" />
+                                  <input type="text" name="phone" className="form-control" required />
                               </div>
                           </Col>
                       </Row>
@@ -71,7 +71,7 @@ const ContactPage = () => (
                           <Col>
                               <div className="form-group">
                                   <label htmlFor="exampleFormControlSelect2">How can we help you?</label>
-                                  <select multiple className="form-control" id="exampleFormControlSelect2" name="help">
+                                  <select multiple className="form-control" id="exampleFormControlSelect2" name="help" required>
                                       <option>Brand Identity 7 Strategy</option>
                                       <option>UI/UX Design</option>
                                       <option>Responsive Web Design</option>
