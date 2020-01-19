@@ -37,7 +37,7 @@ const ContactPage = () => (
       <Container>
           <Row>
               <Col>
-                  <form name="contact" method="POST" data-netlify="true" netlify>
+                  <form name="contact" method="POST" data-netlify="true">
                      <Row>
                          <Col sm={12} md={12} lg={6}>
                              <div className="form-group">
