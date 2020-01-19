@@ -48,7 +48,7 @@ const ContactPage = () => (
                          <Col sm={12} md={12} lg={6}>
                              <div className="form-group">
                                  <label>Company: </label>
-                                 <input type="text" name="name" className="form-control" />
+                                 <input type="text" name="company" className="form-control" />
                              </div>
                          </Col>
                      </Row>
@@ -62,7 +62,7 @@ const ContactPage = () => (
                           <Col sm={12} md={12} lg={6}>
                               <div className="form-group">
                                   <label>Phone: </label>
-                                  <input type="text" name="name" className="form-control" />
+                                  <input type="text" name="phone" className="form-control" />
                               </div>
                           </Col>
                       </Row>
@@ -71,7 +71,7 @@ const ContactPage = () => (
                           <Col>
                               <div className="form-group">
                                   <label htmlFor="exampleFormControlSelect2">How can we help you?</label>
-                                  <select multiple className="form-control" id="exampleFormControlSelect2">
+                                  <select multiple className="form-control" id="exampleFormControlSelect2" name="help">
                                       <option>Brand Identity 7 Strategy</option>
                                       <option>UI/UX Design</option>
                                       <option>Responsive Web Design</option>
