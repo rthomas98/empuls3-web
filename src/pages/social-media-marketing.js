@@ -54,7 +54,7 @@ const SocialMediaPage = () => (
               </Col>
           </Row>
           <Row className="mb-4">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="p-0">
                 <SocialImgOne/>
               </Col>
               <Col sm={12} md={12} lg={6} className="bg-pink p-5 d-flex justify-content-center">
@@ -78,12 +78,12 @@ const SocialMediaPage = () => (
                       </p>
                   </div>
               </Col>
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="p-0">
                   <SocialImgTwo/>
               </Col>
           </Row>
           <Row className="mb-4">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="p-0">
                   <SocialImgThree/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -102,7 +102,7 @@ const SocialMediaPage = () => (
               </Col>
           </Row>
           <Row className="mb-4">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="p-0">
                   <SocialImgFour/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">

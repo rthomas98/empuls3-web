@@ -1,5 +1,5 @@
 import React from "react"
-import {Container, Row, Col, Nav} from "react-bootstrap"
+import {Container, Row, Col, Nav, Form, FormGroup} from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -33,6 +33,79 @@ const ContactPage = () => (
             </Row>
         </Container>
     </div>
+
+      <Container>
+          <Row>
+              <Col>
+                  <form name="contact" method="POST" data-netlify="true">
+                     <Row>
+                         <Col sm={12} md={12} lg={6}>
+                             <div className="form-group">
+                                 <label>Full Name: </label>
+                                 <input type="text" name="name" className="form-control" />
+                             </div>
+                         </Col>
+                         <Col sm={12} md={12} lg={6}>
+                             <div className="form-group">
+                                 <label>Company: </label>
+                                 <input type="text" name="name" className="form-control" />
+                             </div>
+                         </Col>
+                     </Row>
+                      <Row>
+                          <Col sm={12} md={12} lg={6}>
+                              <div className="form-group">
+                                  <label>Your Email:</label>
+                                  <input type="email" name="email" className="form-control" />
+                              </div>
+                          </Col>
+                          <Col sm={12} md={12} lg={6}>
+                              <div className="form-group">
+                                  <label>Phone: </label>
+                                  <input type="text" name="name" className="form-control" />
+                              </div>
+                          </Col>
+                      </Row>
+
+                      <Row>
+                          <Col>
+                              <div className="form-group">
+                                  <label htmlFor="exampleFormControlSelect2">How can we help you?</label>
+                                  <select multiple className="form-control" id="exampleFormControlSelect2">
+                                      <option>Brand Identity 7 Strategy</option>
+                                      <option>UI/UX Design</option>
+                                      <option>Responsive Web Design</option>
+                                      <option>Web Development</option>
+                                      <option>WordPress Development</option>
+                                      <option>Mobile Development</option>
+                                      <option>Analytics & Conversation Tracking</option>
+                                      <option>Email Marketing</option>
+                                      <option>PPC Marketing</option>
+                                      <option>Search Engine Optimization</option>
+                                      <option>Social Media Marketing</option>
+                                      <option>Other</option>
+                                  </select>
+                              </div>
+                          </Col>
+                      </Row>
+
+                     <Row>
+                         <Col sm={12} md={12} lg={12}>
+                             <div className="form-group">
+                                 <label>Comment or Questions:</label>
+                                 <textarea name="message" className="form-control"></textarea>
+                             </div>
+                         </Col>
+                     </Row>
+                      <Row>
+                          <Col>
+                              <button type="submit" className="btn btn-yellow btn-lg">Send</button>
+                          </Col>
+                      </Row>
+                  </form>
+              </Col>
+          </Row>
+      </Container>
 
       <Container className="mb-5">
           <Row>

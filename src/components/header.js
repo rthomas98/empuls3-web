@@ -15,7 +15,7 @@ const Header = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/" activeClassName="active">Home</Nav.Link>
           <Nav.Link href="/agency">Agency</Nav.Link>
           <NavDropdown title="Design and Development" id="basic-nav-dropdown">
             <NavDropdown.Item href="/brand-identity-and-strategy">Brand Identity and Strategy</NavDropdown.Item>

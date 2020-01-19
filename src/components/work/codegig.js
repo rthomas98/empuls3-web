@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const SocialBannerImg = () => {
+const CodegigImg = () => {
     const data = useStaticQuery(graphql`
         query {
-            seoBannerImg: file(relativePath: { eq: "se-banner.jpg" }) {
+            codegigImg: file(relativePath: { eq: "codegig.png" }) {
                 childImageSharp {
                     fluid(maxWidth: 1170) {
                         ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const SocialBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.seoBannerImg.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.codegigImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
 }
 
-export default SocialBannerImg
+export default CodegigImg
