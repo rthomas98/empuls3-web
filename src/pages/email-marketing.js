@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 import EmailBannerThree from "../components/email/email-banner-3";
 import EmailBannerOne from "../components/email/email-banner-1";
 import EmailBannerTwo from "../components/email/email-banner-2";
-import AnalyticsImgThree from "../components/analytics/analytics-img-3";
 import EmailImgOne from "../components/email/email-img-1";
 import EmailImgTwo from "../components/email/email-img-2";
 import EmailImgThree from "../components/email/email-img-3";

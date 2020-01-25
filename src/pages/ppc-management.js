@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PpcBannerImg from "../components/ppc/ppc-banner";
-import MarketingImgOne from "../components/marketing/marketing-img-1";
 import PpcImgOne from "../components/ppc/pps-img-one";
 import {Link} from "gatsby";
 import PpcImgThree from "../components/ppc/ppc-img-three";
