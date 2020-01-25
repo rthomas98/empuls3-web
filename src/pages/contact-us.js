@@ -37,27 +37,18 @@ const ContactPage = () => (
       <Container>
           <Row>
               <Col>
-                  <Form>
-
-                      <Row>
-                          <Col sm={12} md={12} lg={6}>
-
-                          </Col>
-                          <Col sm={12} md={12} lg={6}>
-
-                          </Col>
-                      </Row>
+                  <Form action="https://formspree.io/xwkldwao" method="POST">
                       <Row>
                           <Col sm={12} md={12} lg={6}>
                               <Form.Group controlId="name">
                                   <Form.Label>Your Name</Form.Label>
-                                  <Form.Control name="name" type="text" placeholder="Enter your full name" />
+                                  <Form.Control name="name" type="text" placeholder="Enter your full name" required />
                               </Form.Group>
                           </Col>
                           <Col sm={12} md={12} lg={6}>
                               <Form.Group controlId="company">
                                   <Form.Label>Phone Number</Form.Label>
-                                  <Form.Control name="phone" type="text" placeholder="What's your phone number?" />
+                                  <Form.Control name="phone" type="text" placeholder="What's your phone number?" required />
                               </Form.Group>
                           </Col>
                       </Row>
@@ -65,13 +56,13 @@ const ContactPage = () => (
                           <Col sm={12} md={12} lg={6}>
                               <Form.Group controlId="company">
                                   <Form.Label>Company</Form.Label>
-                                  <Form.Control name="company" type="text" placeholder="What's the name of your company?" />
+                                  <Form.Control name="company" type="text" placeholder="What's the name of your company?"  />
                               </Form.Group>
                           </Col>
                           <Col sm={12} md={12} lg={6}>
-                              <Form.Group controlId="formBasicEmail" action="https://formspree.io/xwkldwao">
+                              <Form.Group controlId="formBasicEmail">
                                   <Form.Label>Email address</Form.Label>
-                                  <Form.Control name="_replyto" type="email" placeholder="Enter email" />
+                                  <Form.Control name="_replyto" type="email" placeholder="Enter email" required />
                               </Form.Group>
                           </Col>
                       </Row>
