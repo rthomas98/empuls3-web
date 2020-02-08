@@ -13,13 +13,13 @@ const ContactPage = () => (
 
     <div className="bg-pink-half mb-5 pt-5">
         <Container>
-            <Row className="mb-4">
+            <Row className="mb-5">
                 <Col className="text-center">
                     <p className="txt-yellow mb-0">
                         strategy. creativity. technology. analytics.
                     </p>
-                    <h1 className="txt-white mb-0">
-                        We should talk.
+                    <h1 className="txt-white mb-2">
+                        Ready to grow your business? 972-798-8914
                     </h1>
                     <p className="txt-white mb-0">
                         For brand consulting services or new business inquiries, please email us at info@empuls3.com. <br/>Or just fill out the handy form and we’ll get back to you the same day unless we’re super busy.

@@ -17,7 +17,7 @@ const RecentWorks = () => (
             </Col>
         </Row>
         <Row className="">
-            <Col sm={6} md={12} lg={4} className="text-center">
+            <Col sm={6} md={12} lg={4} className="text-center mb-md-5">
                 <EventsImg/>
                 <h4>Events 4 You</h4>
                 <p className="text-muted">
@@ -25,7 +25,7 @@ const RecentWorks = () => (
                 </p>
                 <Link to="https://www.theevents4you.com/" target="_blank" className="btn btn-pink">view more</Link>
             </Col>
-            <Col sm={6} md={12} lg={4} className="text-center">
+            <Col sm={6} md={12} lg={4} className="text-center mb-md-5">
                 <ThomasImg/>
                 <h4>Hebert-Thomas Law</h4>
                 <p className="text-muted">
@@ -33,7 +33,7 @@ const RecentWorks = () => (
                 </p>
                 <Link to="https://www.hebertthomaslaw.com/" target="_blank" className="btn btn-pink">view more</Link>
             </Col>
-            <Col sm={6} md={12} lg={4} className="text-center">
+            <Col sm={6} md={12} lg={4} className="text-center mb-md-5">
                 <SnappeningImg/>
                 <h4>Snappening</h4>
                 <p className="text-muted">

@@ -16,10 +16,10 @@ const MobilePage = () => (
 
     <Container fluid={true} className="mb-5">
         <Row>
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="mb-md-5">
                 <div className="txt-overlay">
                     <MobileBanner/>
-                    <div className="bottom-left p-3">
+                    <div className="bottom-left p-3 p-md-5">
                         <p className="txt-yellow mb-0">
                             strategy. creativity. technology. analytics.
                         </p>
@@ -78,7 +78,7 @@ const MobilePage = () => (
 
       <Container className="mb-5">
           <Row className="mb-5">
-              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center mb-md-5">
                   <div className="my-auto col">
                       <h2>
                           iOS App Development

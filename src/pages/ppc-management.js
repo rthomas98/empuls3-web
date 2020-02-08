@@ -148,7 +148,7 @@ const PPCPage = () => (
       </Container>
       <Container className="mb-5">
           <Row>
-              <Col sm={12} md={12} lg={4}>
+              <Col sm={12} md={12} lg={4} className="p-md-0">
                   <div className="bg-pink p-4 d-flex justify-content-center ppc-box">
                         <div className="my-auto col text-center">
                             <small className="m-0">Attract ready-to-buy prospects with</small>
@@ -160,7 +160,7 @@ const PPCPage = () => (
                         </div>
                   </div>
               </Col>
-              <Col sm={12} md={12} lg={4}>
+              <Col sm={12} md={12} lg={4} className="p-md-0">
                   <div className="bg-pink p-4 d-flex justify-content-center ppc-box">
                       <div className="my-auto col text-center">
                           <small className="m-0">Show up across the web with</small>
@@ -172,7 +172,7 @@ const PPCPage = () => (
                       </div>
                   </div>
               </Col>
-              <Col sm={12} md={12} lg={4}>
+              <Col sm={12} md={12} lg={4} className="p-md-0">
                   <div className="bg-pink p-4 d-flex justify-content-center ppc-box">
                       <div className="my-auto col text-center">
                           <small className="m-0">Restart the conversation with</small>

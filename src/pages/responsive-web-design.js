@@ -17,10 +17,10 @@ const ResponsivePage = () => (
 
     <Container fluid={true} className="mt-3 mb-5">
         <Row>
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="mb-md-5">
                <div className="txt-overlay">
                    <ResponsiveBannerImg/>
-                   <div className="bottom-left p-3">
+                   <div className="bottom-left p-3 p-md-5">
                        <p className="lead txt-yellow m-0">
                            strategy. creativity. technology. analytics.
                        </p>
@@ -41,7 +41,7 @@ const ResponsivePage = () => (
 
       <Container className="mb-5">
           <Row className="mb-5">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="p-md-0 mb-md-5">
                     <ResponsiveImgThree/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -61,7 +61,7 @@ const ResponsivePage = () => (
               </Col>
           </Row>
           <Row className="mb-5">
-              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center mb-md-5">
                   <div className="my-auto col">
                       <h2>
                           Responsive design for better<br/>
@@ -80,10 +80,10 @@ const ResponsivePage = () => (
               </Col>
           </Row>
           <Row className="mb-5">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="mb-md-5">
                 <ResponsiveImgFive/>
               </Col>
-              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center ">
                   <div className="my-auto col">
                       <h2>
                           Responsive design for SEO

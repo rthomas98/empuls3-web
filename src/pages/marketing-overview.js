@@ -40,7 +40,7 @@ const MarketingPage = () => (
 
       <Container className="mb-5">
           <Row>
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="mb-md-5">
                 <MarketingImgOne/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -103,7 +103,7 @@ const MarketingPage = () => (
               </Col>
           </Row>
           <Row>
-              <Col lg={12}>
+              <Col lg={12} className="p-md-0">
                   <div className="txt-overlay">
                       <MarketingImgFour/>
                       <div className="centered text-center p-5 col">

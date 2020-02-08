@@ -46,7 +46,7 @@ const DevelopmentPage = () => (
               </Col>
           </Row>
           <Row className="mb-5">
-              <Col sm={12} md={12} lg={6}>
+              <Col sm={12} md={12} lg={6} className="mb-md-5">
                   <WebImgOne/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center mb-5">
@@ -123,7 +123,7 @@ const DevelopmentPage = () => (
               <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0 p-0">
                     <WebImgTwo/>
               </Col>
-              <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0 bg-pink d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0 bg-pink d-flex justify-content-center p-md-5">
                       <div className="my-auto col">
                           <h2>We build websites of different kinds</h2>
                           <p>

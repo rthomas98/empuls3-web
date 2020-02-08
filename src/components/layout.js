@@ -84,6 +84,10 @@ const Layout = ({ children }) => {
             </Row>
             <Row>
               <Col className="text-center copyright">
+                <h6 className="mb-1">
+                  9100 Independence Pkwy, Plano, TX 75025 | <a href="mailto:info@empuls3.com">info@empuls3.com</a> | <a
+                    href="tel:+9727988914">972-798-8914</a>
+                </h6>
                 <p>
                   &copy; {new Date().getFullYear()} Empuls3 Media <Link to="">Terms</Link>
                 </p>

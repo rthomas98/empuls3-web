@@ -31,6 +31,7 @@ const IndexPage = () => (
                         <h1>
                             WE’RE A MULTI-FACETED FULL-SERVICE CREATIVE AGENCY.
                         </h1>
+
                         <p className="lead">
                             The way people communicate has changed. Your marketing strategy should too.
                         </p>
@@ -41,7 +42,7 @@ const IndexPage = () => (
             </Col>
         </Row>
         <Row className="mb-3" >
-            <Col sm={12} md={12} lg={4} className="text-center p-3 d-flex justify-content-center">
+            <Col sm={12} md={12} lg={4} className="text-center p-3 d-flex justify-content-center mb-md-5">
                 <div className="my-auto col">
                     <h2>We’re More Than an Agency.</h2>
                     <p className="lead">
@@ -50,22 +51,22 @@ const IndexPage = () => (
                     <Link to="/our-work" className="btn btn-yellow">Who we are</Link>
                 </div>
             </Col>
-            <Col sm={12} md={12} lg={4}>
+            <Col sm={12} md={6} lg={4}>
                 <div className="txt-overlay">
                     <BannerImgOne/>
                     <div className="bottom-left p-3">
                         <h3 className="txt-yellow">
-                            Schedule A Call
+                            Ready to grow your business?
                         </h3>
                         <p className="txt-white">
                             We help you plan and execute a digital marketing strategy that produces measurable growth.
                         </p>
 
-                        <Link to="/contact-us" className="btn btn-pink">let's get started</Link>
+                        <Link to="/contact-us" className="btn btn-pink">call 972-798-8914</Link>
                     </div>
                 </div>
             </Col>
-            <Col sm={12} md={12} lg={4}>
+            <Col sm={12} md={6} lg={4}>
                 <div className="txt-overlay">
                     <BannerImgTwo/>
                     <div className="bottom-left p-3">
@@ -97,7 +98,7 @@ const IndexPage = () => (
      <div className="bg-yellow-half mb-5">
          <Container>
              <Row className="mb-5">
-                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center ">
+                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center mb-md-5 p-md-5">
                      <div className="my-auto col p-3 text-center">
                          <h3 className="txt-pink" >
                              Strategy + Research
@@ -117,10 +118,10 @@ const IndexPage = () => (
                          <Link to="/brand-identity-and-strategy" className="btn btn-yellow">find out more</Link>
                      </div>
                  </Col>
-                 <Col sm={12} md={12} lg={4} >
+                 <Col sm={12} md={12} lg={4} className="p-md-0">
                      <div className="txt-overlay">
                          <HomeServicesImg/>
-                         <div className="centered text-center col txt-white p-3">
+                         <div className="centered text-center col txt-white p-3 p-md-5">
                              <h3 className="txt-white" >
                                  Design + Development
                              </h3>
@@ -140,7 +141,7 @@ const IndexPage = () => (
                          </div>
                      </div>
                  </Col>
-                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center ">
+                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center mb-md-5 p-md-5">
                      <div className="my-auto col p-3 text-center">
                          <h3 className="txt-pink" >
                              Analytics + Marketing

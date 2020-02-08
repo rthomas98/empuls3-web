@@ -56,7 +56,7 @@ const AgencyPage = () => (
 
       <Container className="mb-5">
           <Row>
-              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center mb-md-5">
                   <div className="my-auto col">
                       <h2>So, who is Empuls3?</h2>
                       <p className="lead">
@@ -95,7 +95,7 @@ const AgencyPage = () => (
               <Col sm={12} md={12} lg={6} className="p-0 m-0">
                   <AgencyImgFive/>
               </Col>
-              <Col sm={12} md={12} lg={6} className="bg-pink p-3 m-0 d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="bg-pink p-3 m-0 d-flex justify-content-center p-md-5">
                   <div className="my-auto col">
                       <h2 className="txt-yellow">
                           Why Us?

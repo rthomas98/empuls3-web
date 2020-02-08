@@ -20,7 +20,7 @@ const UIPage = () => (
     <div className="bg-pink-half mb-5 mt-3">
         <Container>
             <Row>
-                <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+                <Col sm={12} md={12} lg={6} className="d-flex justify-content-center mt-md-5">
                     <div className="my-auto col">
                         <p className="lead m-0 txt-yellow">
                             strategy. creativity. technology. analytics.
@@ -31,7 +31,7 @@ const UIPage = () => (
                         </p>
                     </div>
                 </Col>
-                <Col sm={12} md={12} lg={6} className="pt-5">
+                <Col sm={12} md={12} lg={6} className="pt-5 mb">
                     <UiBannerImg/>
                 </Col>
             </Row>
@@ -40,7 +40,7 @@ const UIPage = () => (
 
       <Container className="mb-5">
           <Row>
-              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="d-flex justify-content-center p-md-0 mb-md-5">
                  <div className="my-auto col">
                      <UiImgOne/>
                  </div>
@@ -103,7 +103,7 @@ const UIPage = () => (
               </Col>
           </Row>
           <Row className="mb-4">
-              <Col sm={6} md={12} lg={6} className="d-flex justify-content-center bg-yellow p-3">
+              <Col sm={6} md={12} lg={6} className="d-flex justify-content-center bg-yellow p-3 p-md-5 mb-md-5 p-md-0 mb-lg-0">
                   <div className="my-auto col">
                       <h2>Wireframing + Prototyping
                       </h2>

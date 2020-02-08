@@ -63,7 +63,7 @@ const SearchEnginePage = () => (
               </Col>
           </Row>
           <Row className="mb-4">
-              <Col sm={12} md={12} lg={6} className="p-0">
+              <Col sm={12} md={12} lg={6} className="p-0 mb-md-5">
                 <SeoImgOne/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -94,7 +94,7 @@ const SearchEnginePage = () => (
 
       <Container fluid={true} className="mb-5">
           <Row>
-              <Col sm={12} md={12} lg={6} className="bg-pink p-4 d-flex justify-content-center">
+              <Col sm={12} md={12} lg={6} className="bg-pink p-4 d-flex justify-content-center p-md-5">
                   <div className="my-auto col">
                       <h3>What Our Search Engine Optimisation (SEO) Will Offer You?
                       </h3>

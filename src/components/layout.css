@@ -724,6 +724,68 @@ p.tagline {
    Modify as content requires.
    ========================================================================== */
 
+@media (max-width: 992px) {
+    .txt-overlay .centered {
+        position: initial;
+        padding: 50px 20px;
+        top: inherit;
+        left: inherit;
+        -webkit-transform: inherit;
+        transform: inherit;
+    }
+    .txt-overlay .centered h1, .txt-overlay .centered h2, .txt-overlay .centered p {
+        color: #222222 !important;
+    }
+
+    .bg-purple-half {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--purple)), color-stop(20%, white));
+        background: transparent;
+    }
+
+    .bg-purple-half h1 {
+        color: #222222 !important;
+    }
+
+    .bg-pink-half {
+        background: transparent;
+    }
+
+    .bg-pink-half h1, .bg-pink-half p {
+        color: #222222 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner h1 {
+        font-size: 28px;
+    }
+    .txt-overlay {
+        position: inherit;
+    }
+    .txt-overlay .bottom-left {
+        position: inherit;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .txt-overlay .bottom-left h1, .txt-overlay .bottom-left p {
+        color: #222222 !important;
+    }
+
+    .lead {
+        font-size: 15px;
+    }
+    .h1, h1 {
+        font-size: 2em;
+    }
+}
+
 
     /* ==========================================================================
        Print styles.

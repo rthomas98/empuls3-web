@@ -17,10 +17,10 @@ const AnalyticsPage = () => (
 
     <Container fluid={true} className="mb-5">
         <Row>
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="mb-md-5">
                <div className="txt-overlay">
                    <AnalyticsBannerImgOne/>
-                   <div className="bottom-left p-4">
+                   <div className="bottom-left p-4 p-md-5">
                        <p className="txt-yellow mb-0">
                            strategy. creativity. technology. analytics.
                        </p>
@@ -74,7 +74,7 @@ const AnalyticsPage = () => (
       <div className="bg-gray p-5 h-auto">
           <Container>
               <Row className="mb-5">
-                  <Col sm={12} md={12} lg={7} className="d-flex justify-content-center">
+                  <Col sm={12} md={12} lg={7} className="d-flex justify-content-center mb-md-5">
                       <div className="my-auto col">
                           <h2>
                               A Platform for Efficiency and Growth

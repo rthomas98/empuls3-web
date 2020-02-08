@@ -27,7 +27,7 @@ const EmailPage = () => (
     <SEO title="Email" />
     <Container fluid={true} className="mb-5" >
         <Row>
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="mb-md-5">
                 <Row>
                     <Col lg={12} className="mb-4">
                         <div className="txt-overlay">
@@ -135,46 +135,62 @@ const EmailPage = () => (
       <div className="p-5 bg-purple mb-5">
           <Container>
               <Row className="mb-4">
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
-                      <div className="my-auto col">
-                          <ConstantContact/>
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
+                      <div className="my-auto col text-center">
+                          <a href="https://www.constantcontact.com/index.jsp" target="_blank" rel="noopener noreferrer">
+                              <ConstantContact/>
+                          </a>
                       </div>
                   </Col>
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
-                      <div className="my-auto col">
-                          <CovertKit/>
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
+                      <div className="my-auto col text-center">
+                          <a href="https://convertkit.com/" target="_blank" rel="noopener noreferrer">
+                              <CovertKit/>
+                          </a>
                       </div>
                   </Col>
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
-                     <div className="my-auto col">
-                         <Drip/>
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
+                     <div className="my-auto col text-center">
+                         <a href="https://www.drip.com/" target="_blank" rel="noopener noreferrer">
+                             <Drip/>
+                         </a>
                      </div>
                   </Col>
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
                       <div className="my-auto col">
-                          <MailChimp/>
+                          <a href="https://mailchimp.com/" target="_blank" rel="noopener noreferrer">
+                              <MailChimp/>
+                          </a>
                       </div>
                   </Col>
               </Row>
               <Row className="mb-4">
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
                       <div className="my-auto col">
-                          <SendinBlue/>
+                          <a href="https://www.sendinblue.com/" target="_blank" rel="noopener noreferrer">
+                              <SendinBlue/>
+                          </a>
+                      </div>
+                  </Col>
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
+                      <div className="my-auto col">
+                          <a href="https://www.hubspot.com/" target="_blank" rel="noopener noreferrer">
+                              <HubSpot/>
+                          </a>
+                      </div>
+                  </Col>
+                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center mb-md-5">
+                      <div className="my-auto col">
+                          <a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer">
+                              <SalesForce/>
+                          </a>
                       </div>
                   </Col>
                   <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
                       <div className="my-auto col">
-                          <HubSpot/>
-                      </div>
-                  </Col>
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
-                      <div className="my-auto col">
-                          <SalesForce/>
-                      </div>
-                  </Col>
-                  <Col sm={6} md={6} lg={3} className="d-flex justify-content-center">
-                      <div className="my-auto col">
-                          <Marketo/>
+                          <a href="https://www.marketo.com/" target="_blank" rel="noopener noreferrer">
+                              <Marketo/>
+                          </a>
                       </div>
                   </Col>
               </Row>

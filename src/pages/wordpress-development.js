@@ -13,6 +13,7 @@ import {Link} from "gatsby";
 import WordpressImgFour from "../components/wordpress/wordpress-img-4";
 import WordpressImgFive from "../components/wordpress/wordpress-img-5";
 import WordpressImgSix from "../components/wordpress/wordpress-img-6";
+import WordpressImgSeven from "../components/wordpress/wordpress-img-7";
 
 const WordPressPage = () => (
   <Layout>
@@ -47,7 +48,7 @@ const WordPressPage = () => (
               </Col>
           </Row>
           <Row className="mb-3">
-              <Col sm={12} md={12} lg={6} className="text-center p-0">
+              <Col sm={12} md={12} lg={6} className="text-center p-0 mb-md-5">
                 <WordpressImgOne/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -63,7 +64,7 @@ const WordPressPage = () => (
               </Col>
           </Row>
           <Row className="mb-3">
-              <Col sm={12} md={12} lg={6} className="text-center p-0">
+              <Col sm={12} md={12} lg={6} className="text-center p-0 mb-md-5">
                   <WordpressImgTwo/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -81,7 +82,7 @@ const WordPressPage = () => (
 
       <Container fluid={true} className="mb-5">
           <Row className="mb-3">
-              <Col sm={12} md={12} lg={6} className="text-center p-0">
+              <Col sm={12} md={12} lg={6} className="text-center p-0 mb-md-5">
                   <WordpressImgThree/>
               </Col>
               <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -136,7 +137,7 @@ const WordPressPage = () => (
                   </p>
               </Col>
               <Col sm={12} md={12} lg={6}>
-                  <WordpressImgFive/>
+                  <WordpressImgSeven/>
                   <h4>Ongoing Support</h4>
                   <p>
                       We build long-lasting relationships with our clients that continue long after an initial project is finished. That’s why we provide support packages according to our clients’ requirements.
