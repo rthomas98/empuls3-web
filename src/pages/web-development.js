@@ -9,10 +9,22 @@ import WebImgOne from "../components/development/web-img-1";
 import WebImgTwo from "../components/development/web-img-2";
 import {Link} from "gatsby";
 import Development from "../components/development-cta";
+import RetweetIcon from "../components/icons/retweet-alt";
+import BadgeIcon from "../components/icons/badge-check";
+import LaptopCodeIcon from "../components/icons/laptop-code";
+import UserCrownIcon from "../components/icons/user-crown";
+import NetIcon from "../components/development/net-icon";
+import PhpIcon from "../components/development/php-icon";
+import RailsIcon from "../components/development/rails";
+import HtmlIcon from "../components/development/html-icon";
+import ShopifyIcon from "../components/development/shopify-icon";
+import MagentoIcon from "../components/development/magento-icon";
+import WordPressIcon from "../components/icons/wordpress-icon";
+import NodeIcon from "../components/development/node-icon";
 
 const DevelopmentPage = () => (
   <Layout>
-    <SEO title="Search Engine" />
+    <SEO title="Web Development" />
 
     <div className="bg-purple-half mt-3 pt-5">
         <Container className="mb-5">
@@ -76,6 +88,7 @@ const DevelopmentPage = () => (
               <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <RetweetIcon/>
                           <h3 className="txt-pink">Agile methodologies</h3>
                           <p>
                               The Empuls3 manifesto empowers our software development process to be iterative, collaborative, and responsive, so our team can reduce inefficiencies and build products as fast as possible.
@@ -86,6 +99,7 @@ const DevelopmentPage = () => (
               <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <BadgeIcon/>
                           <h3 className="txt-pink">Commitment to compliance</h3>
                           <p>
                               Our team strictly adheres to domestic and international legal regulations and ensures that only secure code is used in your software applications.
@@ -98,6 +112,7 @@ const DevelopmentPage = () => (
               <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <LaptopCodeIcon/>
                           <h3 className="txt-pink">Code quality</h3>
                           <p>
                               The Empuls3 team performs a code analysis and continuous code quality inspection to reduce the technical debt and mitigate any possible risks.
@@ -108,6 +123,7 @@ const DevelopmentPage = () => (
               <Col sm={12} md={12} lg={6} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <UserCrownIcon/>
                           <h3 className="txt-pink">Dedicated teams</h3>
                           <p>
                               Our teams possess a do-or-die mentality and a forward-looking approach to build a solution that will help you thrive in the future.
@@ -162,6 +178,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <NetIcon/>
                           <h5 className="txt-pink">ASP.Net</h5>
                           <p>
                               Build scalable, secure & robust applications using the rich toolbox in Visual Studio.
@@ -172,6 +189,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <PhpIcon/>
                           <h5 className="txt-pink">PHP</h5>
                           <p>
                               We create custom web solutions using PHP, support standard & custom CMS.
@@ -182,6 +200,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <RailsIcon/>
                           <h5 className="txt-pink">Rails</h5>
                           <p>
                               We create custom web solutions using PHP, support standard & custom CMS.
@@ -192,6 +211,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <HtmlIcon/>
                           <h5 className="txt-pink">HTML5</h5>
                           <p>
                               Make your website fully compatible with the next generation web standards.
@@ -204,6 +224,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <ShopifyIcon/>
                           <h5 className="txt-pink">Shopify</h5>
                           <p>
                               Easy and quick to get started. Create an online store or add eCommerce to an existing site.
@@ -214,6 +235,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <MagentoIcon/>
                           <h5 className="txt-pink">Magento</h5>
                           <p>
                               Offers flexible solutions that address a wide range of business needs and budgets.
@@ -224,6 +246,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <WordPressIcon/>
                           <h5 className="txt-pink">WordPress</h5>
                           <p>
                               You can manage blogs & products. One of the top open-source PHP CMS options.
@@ -234,6 +257,7 @@ const DevelopmentPage = () => (
               <Col sm={6} md={6} lg={3} className="mb-3 mb-md-3 mb-lg-0">
                   <div className="bg-gray p-4 rounded d-flex justify-content-center">
                       <div className="my-auto col text-center">
+                          <NodeIcon/>
                           <h5 className="txt-pink">Node.js</h5>
                           <p>
                               Google JavaScript engine. Translation: fast and scalable web apps in a result.

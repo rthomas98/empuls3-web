@@ -26,7 +26,7 @@ const MapImg = () => {
         }
     `)
 
-    return <Img fluid={data.mapImg.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.mapImg.childImageSharp.fluid} alt="A map of the Dallas Texas area." className="img-fluid" />
 }
 
 export default MapImg

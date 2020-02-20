@@ -26,7 +26,7 @@ const HtmlIcon = () => {
         }
     `)
 
-    return <Img fluid={data.htmlIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.htmlIcon.childImageSharp.fluid} alt="HTML Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 40 }} />
 }
 
 export default HtmlIcon

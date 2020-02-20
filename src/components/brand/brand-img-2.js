@@ -26,7 +26,7 @@ const BrandImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.brandImageTwo.childImageSharp.fluid} alt="" className="img-fluid mb-3" />
+    return <Img fluid={data.brandImageTwo.childImageSharp.fluid} alt="Empuls3 helps to breathe life into your company story, developing branding that advances your message and forms a distinct image." className="img-fluid mb-3" />
 }
 
 export default BrandImgTwo

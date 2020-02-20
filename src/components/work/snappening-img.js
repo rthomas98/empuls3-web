@@ -26,7 +26,7 @@ const SnappeningImg = () => {
         }
     `)
 
-    return <Img fluid={data.snappeningImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.snappeningImg.childImageSharp.fluid} alt="wedding decorations at a beach" className="img-fluid mb-4" />
 }
 
 export default SnappeningImg

@@ -26,7 +26,7 @@ const ShopifyIcon = () => {
         }
     `)
 
-    return <Img fluid={data.shopifyIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.shopifyIcon.childImageSharp.fluid} alt="Shopify Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 80 }} />
 }
 
 export default ShopifyIcon

@@ -12,7 +12,7 @@ import Design from "../components/design-cta";
 
 const BrandPage = () => (
   <Layout>
-    <SEO title="Brand" />
+    <SEO title="Branding Agency in Frisco" />
 
     <Container fluid={true} className="mb-5 mt-3">
         <Row classname="">
@@ -77,28 +77,6 @@ const BrandPage = () => (
           </Row>
       </Container>
 
-      <Container fluid={true} className="mb-5 p-0">
-          <Row>
-              <Col sm={12} md={12} lg={6} className="bg-purple p-5 d-flex justify-content-center">
-                  <div className="my-auto col">
-                      <h2 className="txt-yellow">Information & System Architecture</h2>
-                      <p>
-                          Creating an optimal user experience is fundamentally rooted in the efficient exchange of information. During this phase, we identify the data structure that facilitates the most streamlined flow of information between your users and the platform. Developing this architecture shapes the remainder of the UX design process, providing a foundation of efficiency for the path forward.
-                      </p>
-                      <h2 className="txt-yellow">
-                          Interaction Design
-                      </h2>
-                      <p>
-                          The very essence of UX design lies in the interaction between users, software, and sometimes even hardware. Utilizing the analytics and intelligence data gathered during the research phase, our UX team designs an interaction tailored to your customers, ensuring the finished solution is a seamless, intuitive experience that caters to all user types.
-                      </p>
-                  </div>
-              </Col>
-              <Col sm={12} md={12} lg={6} className="m-0 p-0">
-                    <BrandImgFour/>
-              </Col>
-          </Row>
-      </Container>
-
       <Container className="mb-5">
         <Row className="mb-4">
             <Col lg={12} >
@@ -116,7 +94,7 @@ const BrandPage = () => (
                     <div className="my-auto col">
                         <h2>Our Process</h2>
                         <p>
-                            Here at Empuls3, we believe that every logo, color, font, and visual element should tell a story and represent who you are. We deliver a brand experience that far exceeds any dream or aspiration you have by blending our passion for art and science behind pixel storytelling. We utilize a proprietary development process that systematically walks our clients through every step of the way to deliver brands, websites, and marketing content that far exceed expectations. Empuls3 is known for having some of the most talented artists in Dallas on our team. In an ever-changing industry, our team is adept at remaining engaged in development trends and tactics. We specialize in brand storytelling, campaign development, product photography, lifestyle imagery, in-studio work, aerial photography via helicopter and drone, complex execution and technical imagery. Above all else, we believe in embodying unconstrained creativity!
+                            Here at Empuls3, we believe that every logo, color, font, and visual element should tell a story and represent who you are. We deliver a brand experience that far exceeds any dream or aspiration you have by blending our passion for art and science behind pixel storytelling. We utilize a proprietary development process that systematically walks our clients through every step of the way to deliver brands, websites, and marketing content that far exceed expectations. Empuls3 is known for having some of the most talented artists in Dallas on our team. In an ever-changing industry, our team is adept at remaining engaged in development trends and tactics. Above all else, we believe in embodying unconstrained creativity!
                         </p>
                     </div>
               </Col>

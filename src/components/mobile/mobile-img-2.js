@@ -26,7 +26,7 @@ const MobileImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.mobileImgTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.mobileImgTwo.childImageSharp.fluid} alt="mobile developer going over some wireframes" className="img-fluid" />
 }
 
 export default MobileImgTwo

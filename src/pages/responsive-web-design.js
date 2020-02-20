@@ -13,7 +13,7 @@ import Design from "../components/design-cta";
 
 const ResponsivePage = () => (
   <Layout>
-    <SEO title="Responsive" />
+    <SEO title="Responsive Web Design Company in Frisco Texas" />
 
     <Container fluid={true} className="mt-3 mb-5">
         <Row>

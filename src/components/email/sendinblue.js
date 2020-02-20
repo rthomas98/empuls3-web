@@ -26,7 +26,7 @@ const SendinBlue = () => {
         }
     `)
 
-    return <Img fluid={data.mailChimp.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.mailChimp.childImageSharp.fluid} alt="SendBlue Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default SendinBlue

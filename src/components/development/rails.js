@@ -26,7 +26,7 @@ const RailsIcon = () => {
         }
     `)
 
-    return <Img fluid={data.netIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.railsIcon.childImageSharp.fluid} alt="Ruby On Rails Icon" className="img-fluid mx-auto d-block mb-3" style={{ width: 40 }} />
 }
 
 export default RailsIcon

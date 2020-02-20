@@ -26,7 +26,7 @@ const Drip = () => {
         }
     `)
 
-    return <Img fluid={data.drip.childImageSharp.fluid} alt="" className="img-fluid"  style={{ width: 150 }}/>
+    return <Img fluid={data.drip.childImageSharp.fluid} alt="Drip Icon" className="img-fluid"  style={{ width: 150 }}/>
 }
 
 export default Drip

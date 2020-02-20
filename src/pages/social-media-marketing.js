@@ -12,7 +12,7 @@ import SocialImgFour from "../components/social/social-img-four";
 
 const SocialMediaPage = () => (
   <Layout>
-    <SEO title="Search Engine" />
+    <SEO title="Social Media Strategy is Quintessential for A Growing Brand" />
 
     <Container fluid={true} className="mb-5">
         <Row>

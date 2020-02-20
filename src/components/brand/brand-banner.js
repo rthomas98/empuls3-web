@@ -26,7 +26,7 @@ const BrandBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.brandBannerImage.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.brandBannerImage.childImageSharp.fluid} alt="Whether you’re just starting out or evolving your brand, Empuls3 will help you grow." className="img-fluid" />
 }
 
 export default BrandBannerImg

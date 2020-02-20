@@ -24,7 +24,7 @@ import Marketing from "../components/marketing-cta";
 
 const EmailPage = () => (
   <Layout>
-    <SEO title="Email" />
+    <SEO title="Email Marketing Services, Best Email Marketing Agency" />
     <Container fluid={true} className="mb-5" >
         <Row>
             <Col sm={12} md={12} lg={6} className="mb-md-5">
@@ -68,9 +68,6 @@ const EmailPage = () => (
                   <p>
                       Email marketing is a powerful method of connecting with valuable customers, clients, prospects, and others interested in your business. When creating your email marketing strategy, we consider the audiences being reached, the content that each audience needs and when they need it. We think about whether the content should be packaged into a multi-email campaign, whether any emails should be automated and how your emails fit into your marketing strategy as a whole. The result is an email plan that works with your other marketing initiatives to build a valuable relationship with your audience.
                   </p>
-                  <h3>
-                      Our Email Marketing Programs Include:
-                  </h3>
               </Col>
           </Row>
       </Container>
@@ -79,7 +76,10 @@ const EmailPage = () => (
           <Row>
               <Col sm={12} md={12} lg={6} className="bg-pink p-5 d-flex justify-content-center">
                   <div className="my-auto col">
-                      <h4>Strategy Development</h4>
+                      <h3>
+                          Our Email Marketing Programs Include:
+                      </h3>
+                      <h4 className="txt-yellow">Strategy Development</h4>
                       <p className="txt-white">
                           Our data-driven approach extends to segmentation and content strategy, messaging frequency, and email cadence. We work with our clients to align their email campaigns to customer personas and business goals and develop a roadmap of activities designed to drive results. By leveraging customer data, we help brands create the most robust customer profiles possible and enable them to constantly get smarter about consumer behaviors to improve their campaigns.
                       </p>

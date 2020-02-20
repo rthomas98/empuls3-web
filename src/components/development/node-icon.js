@@ -26,7 +26,7 @@ const NodeIcon = () => {
         }
     `)
 
-    return <Img fluid={data.nodeIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.nodeIcon.childImageSharp.fluid} alt="Node JS Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 80 }} />
 }
 
 export default NodeIcon

@@ -7,7 +7,6 @@ const ThanksPage = () => (
     <Layout>
         <SEO title="Thanks" />
 
-
     </Layout>
 )
 

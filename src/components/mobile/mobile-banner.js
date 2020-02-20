@@ -26,7 +26,7 @@ const MobileBanner = () => {
         }
     `)
 
-    return <Img fluid={data.mobileBanner.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.mobileBanner.childImageSharp.fluid} alt="mobile development team going over some wireframes." className="img-fluid" />
 }
 
 export default MobileBanner

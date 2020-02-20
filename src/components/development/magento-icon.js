@@ -26,7 +26,7 @@ const MagentoIcon = () => {
         }
     `)
 
-    return <Img fluid={data.megentoIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.megentoIcon.childImageSharp.fluid} alt="Megento Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 40 }} />
 }
 
 export default MagentoIcon

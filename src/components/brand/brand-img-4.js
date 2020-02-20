@@ -26,7 +26,7 @@ const BrandImgFour = () => {
         }
     `)
 
-    return <Img fluid={data.brandImageFour.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.brandImageFour.childImageSharp.fluid} alt="Creating an optimal user experience is fundamentally rooted in the efficient exchange of information." className="img-fluid" />
 }
 
 export default BrandImgFour

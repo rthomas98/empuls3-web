@@ -26,7 +26,7 @@ const WordpressIcon = () => {
         }
     `)
 
-    return <Img fluid={data.wordpressIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.wordpressIcon.childImageSharp.fluid} alt="WordPress Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 30 }} />
 }
 
 export default WordpressIcon

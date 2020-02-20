@@ -20,7 +20,7 @@ import Marketing from "../components/marketing-cta";
 
 const SearchEnginePage = () => (
   <Layout>
-    <SEO title="Search Engine" />
+    <SEO title="Search Engine Optimization Solutions in Frisco" />
     <Container fluid={true} className="p-0 mb-5">
         <div className="txt-overlay">
             <SeoBannerImg/>
@@ -41,7 +41,7 @@ const SearchEnginePage = () => (
       <Container className="mb-5">
           <Row className="mb-4">
               <Col sm={12} md={12} lg={12}>
-                  <h2>Reach Google’s page 1</h2>
+                  <h2>Reach Google’s Page 1</h2>
                   <p className="lead">
                       How much SEO will it take to get your business to page 1 of Google?
                   </p>

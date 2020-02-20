@@ -26,7 +26,7 @@ const HomeAboutImg = () => {
         }
     `)
 
-    return <Img fluid={data.homeAboutImgImage.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.homeAboutImgImage.childImageSharp.fluid} alt="people in an agency having a meeting" className="img-fluid" />
 }
 
 export default HomeAboutImg

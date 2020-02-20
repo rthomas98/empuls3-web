@@ -26,7 +26,7 @@ const NetIcon = () => {
         }
     `)
 
-    return <Img fluid={data.netIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.netIcon.childImageSharp.fluid} alt="Dot.Net Icon" className="img-fluid mb-3 mx-auto d-block" style={{ width: 40 }}  />
 }
 
 export default NetIcon

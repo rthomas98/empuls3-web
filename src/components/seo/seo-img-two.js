@@ -26,7 +26,7 @@ const SeoImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.seoImgTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.seoImgTwo.childImageSharp.fluid} alt="four women at a desk getting ready to take a picture" className="img-fluid" />
 }
 
 export default SeoImgTwo

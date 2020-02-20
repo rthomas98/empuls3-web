@@ -26,7 +26,7 @@ const AnalyticsBannerImgOne = () => {
         }
     `)
 
-    return <Img fluid={data.analyticsBannerImageOne.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.analyticsBannerImageOne.childImageSharp.fluid} alt="a women and a man working on some SEO logistics." className="img-fluid" />
 }
 
 export default AnalyticsBannerImgOne

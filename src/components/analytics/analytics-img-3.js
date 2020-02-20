@@ -26,7 +26,7 @@ const AnalyticsImgThree = () => {
         }
     `)
 
-    return <Img fluid={data.analyticsImageThree.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.analyticsImageThree.childImageSharp.fluid} alt="Our Conversion Rate Optimization team analyzes the navigation patterns of your site using Heat Mapping and Click Analysis methods." className="img-fluid" />
 }
 
 export default AnalyticsImgThree

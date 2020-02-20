@@ -26,7 +26,7 @@ const SocialBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.seoBannerImg.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.seoBannerImg.childImageSharp.fluid} alt="two people smiling in a meeting" className="img-fluid" />
 }
 
 export default SocialBannerImg

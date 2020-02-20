@@ -26,7 +26,7 @@ const Marketo = () => {
         }
     `)
 
-    return <Img fluid={data.marketo.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.marketo.childImageSharp.fluid} alt="Marketo Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default Marketo

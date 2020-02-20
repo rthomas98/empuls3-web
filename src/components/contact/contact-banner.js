@@ -26,7 +26,7 @@ const ContactBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.contactBannerImg.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.contactBannerImg.childImageSharp.fluid} alt="People in a meeting working on some wireframes." className="img-fluid" />
 }
 
 export default ContactBannerImg

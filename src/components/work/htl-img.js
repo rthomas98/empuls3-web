@@ -26,7 +26,7 @@ const ThomasImg = () => {
         }
     `)
 
-    return <Img fluid={data.thomasImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.thomasImg.childImageSharp.fluid} alt="a lawyer working at her desk" className="img-fluid mb-4" />
 }
 
 export default ThomasImg

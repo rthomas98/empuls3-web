@@ -26,7 +26,7 @@ const PpcImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.ppcImgTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.ppcImgTwo.childImageSharp.fluid} alt="Our PPC specialists in a meeting" className="img-fluid" />
 }
 
 export default PpcImgTwo

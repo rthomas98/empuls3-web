@@ -17,7 +17,7 @@ import WordpressImgSeven from "../components/wordpress/wordpress-img-7";
 
 const WordPressPage = () => (
   <Layout>
-    <SEO title="WordPress" />
+    <SEO title="WordPress and WooCommerce Development in Frisco" />
 
     <Container fluid={true} className="mb-5">
         <Row>

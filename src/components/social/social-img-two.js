@@ -26,7 +26,7 @@ const SocialImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.socialImgTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.socialImgTwo.childImageSharp.fluid} alt="designers laughing in a meeting" className="img-fluid" />
 }
 
 export default SocialImgTwo

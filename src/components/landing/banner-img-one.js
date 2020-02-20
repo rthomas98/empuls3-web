@@ -26,7 +26,7 @@ const BannerImgOne = () => {
         }
     `)
 
-    return <Img fluid={data.bannerImageOne.childImageSharp.fluid} alt="" className="img-fluid mb-3" />
+    return <Img fluid={data.bannerImageOne.childImageSharp.fluid} alt="marketing team in a meeting" className="img-fluid mb-3" />
 }
 
 export default BannerImgOne

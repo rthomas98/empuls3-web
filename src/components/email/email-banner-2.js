@@ -26,7 +26,7 @@ const EmailBannerTwo = () => {
         }
     `)
 
-    return <Img fluid={data.emailBannerTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.emailBannerTwo.childImageSharp.fluid} alt="marketing team planning out some funnels." className="img-fluid" />
 }
 
 export default EmailBannerTwo

@@ -13,7 +13,7 @@ import Marketing from "../components/marketing-cta";
 
 const MarketingPage = () => (
   <Layout>
-    <SEO title="Marketing" />
+    <SEO title="Full-Services Brand Marketing in Frisco" />
 
     <div className="bg-pink-half pt-5 mb-5">
         <Container>
@@ -47,7 +47,7 @@ const MarketingPage = () => (
                   <div className="my-auto col">
                       <h2>Bringing new customers to your brand experience</h2>
                       <p>
-                          The best websites, mobile apps, and campaigns are often designed to delight customers, but your business needs to attract users in the first place. Empul3 combines strategic thinking and performance marketing to generate an integrated experience that exceeds your users’ expectations and your business goals.
+                          The best websites, mobile apps, and campaigns are often designed to delight customers, but your business needs to attract users in the first place. Empuls3 combines strategic thinking and performance marketing to generate an integrated experience that exceeds your users’ expectations and your business goals.
                       </p>
                       <p>
                           We do this by combining data and insight into your business needs while understanding and advocating for the best customer experience possible, whether on-site or off. We meet with clients each quarter to review performance and present new ideas. We consistently test experiences to maximize performance—from the channel, messaging, and creative to behavior, timing, and cadences.

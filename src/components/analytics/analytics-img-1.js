@@ -26,7 +26,7 @@ const AnalyticsImgOne = () => {
         }
     `)
 
-    return <Img fluid={data.analyticsImageOne.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.analyticsImageOne.childImageSharp.fluid} alt="The Empuls3 marketing team hard at work." className="img-fluid" />
 }
 
 export default AnalyticsImgOne

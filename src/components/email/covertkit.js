@@ -26,7 +26,7 @@ const CovertKit = () => {
         }
     `)
 
-    return <Img fluid={data.covertKit.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.covertKit.childImageSharp.fluid} alt="Covertkit Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default CovertKit

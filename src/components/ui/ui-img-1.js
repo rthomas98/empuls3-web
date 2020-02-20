@@ -26,7 +26,7 @@ const UiImgOne = () => {
         }
     `)
 
-    return <Img fluid={data.uiImageOne.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.uiImageOne.childImageSharp.fluid} alt="designers in a meeting working on a projects" className="img-fluid" />
 }
 
 export default UiImgOne

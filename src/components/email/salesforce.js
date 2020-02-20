@@ -26,7 +26,7 @@ const SalesForce = () => {
         }
     `)
 
-    return <Img fluid={data.salesForce.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.salesForce.childImageSharp.fluid} alt="Salesforce Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default SalesForce

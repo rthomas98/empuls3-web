@@ -16,7 +16,7 @@ import Marketing from "../components/marketing-cta";
 
 const PPCPage = () => (
   <Layout>
-    <SEO title="PPC Management" />
+    <SEO title="Pay Per Click Management Agency in Frisco Texas" />
     <div className="pt-5 mb-5 bg-purple-half">
         <Container>
             <Row>
@@ -45,7 +45,7 @@ const PPCPage = () => (
                   <div className="my-auto col">
                       <h2>Pay-Per-Click Management<br/> That Works</h2>
                       <p>
-                          Pay-Per-Click is a thriving and powerful platform to quickly generate increased web traffic that drives targeted visitors to your site. PPC experts at empuls3 leverage our proprietary methods to provide exclusive pay-per-click strategies. We incorporate a variety of proven techniques to your campaigns, designed to make your PPC have the highest return on investment.
+                          Pay-Per-Click is a thriving and powerful platform to quickly generate increased web traffic that drives targeted visitors to your site. PPC experts at Empuls3 leverage our proprietary methods to provide exclusive pay-per-click strategies. We incorporate a variety of proven techniques to your campaigns, designed to make your PPC have the highest return on investment.
                       </p>
                   </div>
               </Col>
@@ -96,7 +96,7 @@ const PPCPage = () => (
                   <div className="my-auto col">
                       <h3>Why We Love PPC</h3>
                       <p>
-                          At Disruptive, we’re on a mission to change the world—one click-at-a-time.
+                          At Empuls3, we’re on a mission to change the world one click-at-a-time.
                       </p>
                       <p>
                           There’s nothing more satisfying to us than seeing our clients’ businesses grow. It’s painful for us to watch ineffective PPC management waste a company’s potential.
@@ -121,7 +121,7 @@ const PPCPage = () => (
                   <div className="my-auto col">
                       <h3>Our Clients</h3>
                       <p>
-                          We’ve produced killer results for hundreds of clients and millions of dollars of ad spend. Odds are, you’ve already seen our work in action!
+                          We’ve produced great results for hundreds of clients and millions of dollars of ad spend. Odds are, you’ve already seen our work in action!
                       </p>
                       <p>
                           To be honest, while we’ve helped clients with small budgets accomplish great things, we typically find that PPC advertising works best for companies with a PPC budget of at least $5,000/month. Below that threshold, it’s often hard to win in today’s competitive PPC market.
@@ -192,7 +192,7 @@ const PPCPage = () => (
               <Col lg={12} className="text-center">
                   <h2>Get leads fast with PPC Advertising Management.</h2>
                   <p className="lead">
-                      We consistently increase leads and lower cost per lead for hundreds of businesses through pay per click services. Become the next success story and contact our PPC experts about our PPC services today.
+                      We consistently increase leads and lower cost per lead for many businesses through pay per click services. Become the next success story and contact our PPC experts about our PPC services today.
                   </p>
                   <Link to="contact-us" className="btn btn-yellow btn-lg">get a free quote</Link>
               </Col>

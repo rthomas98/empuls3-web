@@ -15,7 +15,7 @@ import Design from "../components/design-cta";
 
 const UIPage = () => (
   <Layout>
-    <SEO title="UI/UX Design" />
+    <SEO title="UI/UX Design Services in Frisco Texas" />
 
     <div className="bg-pink-half mb-5 mt-3">
         <Container>
@@ -86,26 +86,9 @@ const UIPage = () => (
 
       <Container className="mb-5">
           <Row className="mb-4">
-              <Col sm={6} md={12} lg={6}>
-                  <BrandImgTwo/>
-              </Col>
-              <Col sm={6} md={12} lg={6} className="d-flex justify-content-center">
-                  <div className="my-auto col">
-                      <h2>We build brands <br/>that cannot be ignored.</h2>
-                      <p className="lead">
-                          Our core strategic engagements <br/>are designed to deliver results
-                      </p>
-                      <p>
-                          Empuls3 helps to breathe life into your company story, developing branding that advances your message and forms a distinct image. While each phase moves your brand somewhere new and exciting, we continuously infuse direction from what we’ve learned about where the brand has come from, where you’d like the brand to go, and how the new brand image will impact consumer behavior. At Empuls3, we’ll help you take the first step or conquer the latest hurdle.
-                      </p>
-                      <Link to="contact-us" className="btn btn-purple">let us help</Link>
-                  </div>
-              </Col>
-          </Row>
-          <Row className="mb-4">
               <Col sm={6} md={12} lg={6} className="d-flex justify-content-center bg-yellow p-3 p-md-5 mb-md-5 p-md-0 mb-lg-0">
                   <div className="my-auto col">
-                      <h2>Wireframing + Prototyping
+                      <h2>Wireframing and Prototyping
                       </h2>
                       <p>
                           Equipped with a wealth of user data from the Discovery phase, our UX designers transform the journey maps into more detailed sitemaps and interactive wireframes. These prototypes form the skeleton of your website or application and range from low-fidelity mockups to highly authentic frameworks. Empuls3 builds all our wireframes with best-in-class design software like Adobe XD or Sketch and uses Invision App for our more actualized prototypes.

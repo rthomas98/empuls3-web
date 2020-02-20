@@ -26,7 +26,7 @@ const EmailImgThree = () => {
         }
     `)
 
-    return <Img fluid={data.emailImgThree.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.emailImgThree.childImageSharp.fluid} alt="email team implementing a new marketing plan." className="img-fluid mb-4" />
 }
 
 export default EmailImgThree

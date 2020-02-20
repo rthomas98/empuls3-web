@@ -26,7 +26,7 @@ const BrandImgThree = () => {
         }
     `)
 
-    return <Img fluid={data.brandImageThree.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.brandImageThree.childImageSharp.fluid} alt="Every business is a brand, especially a fast-growing, one-of-a-kind company." className="img-fluid" />
 }
 
 export default BrandImgThree

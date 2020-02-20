@@ -2,22 +2,22 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SocialMediaBannerImg from "../components/social/social-banner";
 import Development from "../components/development-cta";
 import EventsImg from "../components/work/events-img";
 import {Link} from "gatsby";
 import ThomasImg from "../components/work/htl-img";
 import SnappeningImg from "../components/work/snappening-img";
 import CodegigImg from "../components/work/codegig";
+import WorkBanner from "../components/work/work-banner";
 
 const WorkPage = () => (
   <Layout>
-    <SEO title="Work" />
+    <SEO title="Digital Marketing Case Studies" />
 
       <Container fluid={true} className="mb-5">
           <Row>
               <Col sm={12} md={12} lg={6} className="p-0">
-                  <SocialMediaBannerImg/>
+                  <WorkBanner/>
               </Col>
               <Col sm={12} md={12} lg={6} className=" d-flex justify-content-center bg-pink p-5">
                   <div className="my-auto col">

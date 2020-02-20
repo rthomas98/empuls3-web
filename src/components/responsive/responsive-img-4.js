@@ -26,7 +26,7 @@ const ResponsiveImgFour = () => {
         }
     `)
 
-    return <Img fluid={data.responsiveImgFour.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.responsiveImgFour.childImageSharp.fluid} alt="designers going over some wireframes in a meeting" className="img-fluid" />
 }
 
 export default ResponsiveImgFour

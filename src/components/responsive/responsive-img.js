@@ -26,7 +26,7 @@ const ResponsiveBannerImgFive = () => {
         }
     `)
 
-    return <Img fluid={data.responsiveBannerImgFive.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.responsiveBannerImgFive.childImageSharp.fluid} alt="designer talking in a meeting" className="img-fluid" />
 }
 
 export default ResponsiveBannerImgFive

@@ -26,7 +26,7 @@ const EventsImg = () => {
         }
     `)
 
-    return <Img fluid={data.eventsImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.eventsImg.childImageSharp.fluid} alt="party planner celebration" className="img-fluid mb-4" />
 }
 
 export default EventsImg

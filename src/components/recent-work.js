@@ -23,7 +23,6 @@ const RecentWorks = () => (
                 <p className="text-muted">
                     At Events4You we love parties of all kinds. We are dedicated to making your vision a reality, creating an unforgettable event. Each event is carefully crafted to your needs. We specialize …
                 </p>
-                <Link to="https://www.theevents4you.com/" target="_blank" className="btn btn-pink">view more</Link>
             </Col>
             <Col sm={6} md={12} lg={4} className="text-center mb-md-5">
                 <ThomasImg/>
@@ -31,7 +30,6 @@ const RecentWorks = () => (
                 <p className="text-muted">
                     If you require the services of a business lawyer in Texas, Hebert-Thomas Law, PLLC focuses almost exclusively in corporate law and therefore has the experience to solve any legal…
                 </p>
-                <Link to="https://www.hebertthomaslaw.com/" target="_blank" className="btn btn-pink">view more</Link>
             </Col>
             <Col sm={6} md={12} lg={4} className="text-center mb-md-5">
                 <SnappeningImg/>
@@ -39,7 +37,11 @@ const RecentWorks = () => (
                 <p className="text-muted">
                     Snappening is the most comprehensive online service for planning your own event. After countless hours of research with consumers, professional planners …
                 </p>
-                <Link to="https://snappening.com/" target="_blank" className="btn btn-pink">view more</Link>
+            </Col>
+        </Row>
+        <Row>
+            <Col className="text-center">
+                <Link to="our-work" className="btn btn-pink">view more</Link>
             </Col>
         </Row>
     </Container>

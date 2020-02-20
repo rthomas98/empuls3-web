@@ -26,7 +26,7 @@ const WebBanner = () => {
         }
     `)
 
-    return <Img fluid={data.webBanner.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.webBanner.childImageSharp.fluid} alt="Coders working on a project." className="img-fluid" />
 }
 
 export default WebBanner

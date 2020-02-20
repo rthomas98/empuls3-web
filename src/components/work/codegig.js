@@ -26,7 +26,7 @@ const CodegigImg = () => {
         }
     `)
 
-    return <Img fluid={data.codegigImg.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.codegigImg.childImageSharp.fluid} alt="people in a training program" className="img-fluid mb-4" />
 }
 
 export default CodegigImg

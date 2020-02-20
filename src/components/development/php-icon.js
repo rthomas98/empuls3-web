@@ -26,7 +26,7 @@ const PhpIcon = () => {
         }
     `)
 
-    return <Img fluid={data.phpIcon.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.phpIcon.childImageSharp.fluid} alt="PHP Icon" className="img-fluid mx-auto d-block mb-3" style={{ width: 40 }} />
 }
 
 export default PhpIcon

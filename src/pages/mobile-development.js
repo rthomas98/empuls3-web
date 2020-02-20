@@ -12,7 +12,7 @@ import MobileImgThree from "../components/mobile/mobile-img-3";
 
 const MobilePage = () => (
   <Layout>
-    <SEO title="Mobile" />
+    <SEO title="Mobile App Development Company in Frisco Texas" />
 
     <Container fluid={true} className="mb-5">
         <Row>

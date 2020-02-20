@@ -26,7 +26,7 @@ const HubSpot = () => {
         }
     `)
 
-    return <Img fluid={data.hubSpot.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.hubSpot.childImageSharp.fluid} alt="HubSpot Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default HubSpot

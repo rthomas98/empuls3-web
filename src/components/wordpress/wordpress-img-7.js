@@ -26,7 +26,7 @@ const WordpressImgSeven = () => {
         }
     `)
 
-    return <Img fluid={data.wordpressImgSeven.childImageSharp.fluid} alt="" className="img-fluid mb-4" />
+    return <Img fluid={data.wordpressImgSeven.childImageSharp.fluid} alt="development support team going over some code" className="img-fluid mb-4" />
 }
 
 export default WordpressImgSeven

@@ -26,7 +26,7 @@ const WebImgTwo = () => {
         }
     `)
 
-    return <Img fluid={data.webImgTwo.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.webImgTwo.childImageSharp.fluid} alt="Business management team working on some layouts." className="img-fluid" />
 }
 
 export default WebImgTwo

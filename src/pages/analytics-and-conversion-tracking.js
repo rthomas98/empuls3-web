@@ -13,7 +13,7 @@ import AnalyticsImgThree from "../components/analytics/analytics-img-3";
 
 const AnalyticsPage = () => (
   <Layout>
-    <SEO title="Analytics And Conversations" />
+    <SEO title="Analytics and Conversion Tracking Agency in Frisco" />
 
     <Container fluid={true} className="mb-5">
         <Row>
@@ -60,7 +60,7 @@ const AnalyticsPage = () => (
                       </p>
 
                       <p>
-                          Get started with our team today and become the next digital marketing success story. Our agency has provided conversion rate optimization services to businesses in the Baltimore-Washington corridor and beyond.
+                          Get started with our team today and become the next digital marketing success story. Our agency has provided conversion rate optimization services to businesses in the Dallas corridor and beyond.
                       </p>
 
                   </div>
@@ -82,12 +82,13 @@ const AnalyticsPage = () => (
 
                           <h3 className="txt-pink">Web Page Analysis</h3>
                           <p>
-                              The CRO experts at The Commerce Shop begin the CRO process by auditing your eCommerce store identifying your target audience, determining your customer engagement metrics and defining your leading pages. Based on the results, our experts will develop a comprehensive Conversion Rate Optimization plan.
+                              The CRO experts at Empuls3 begin the CRO process by auditing your eCommerce store identifying your target audience, determining your customer engagement metrics and defining your leading pages. Based on the results, our experts will develop a comprehensive Conversion Rate Optimization plan.
                           </p>
 
                           <h3 className="txt-pink">Landing Page Optimization</h3>
                           <p>
-                              The CRO experts at The Commerce Shop begin the CRO process by auditing your eCommerce store identifying your target audience, determining your customer engagement metrics and defining your leading pages. Based on the results, our experts will develop a comprehensive Conversion Rate Optimization plan.
+                              The ultimate goal of CRO landing page optimization is to build pages that better engage your target audience so you can drive more leads through paid search. No cheesy templates. You'll get hand-built, conversion focused
+                              landing pages that are portfolio worthy.
                           </p>
                       </div>
                   </Col>

@@ -26,7 +26,7 @@ const WordpressBanner = () => {
         }
     `)
 
-    return <Img fluid={data.wordpressBanner.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.wordpressBanner.childImageSharp.fluid} alt="people in a marketing agency laughing at a desk" className="img-fluid" />
 }
 
 export default WordpressBanner

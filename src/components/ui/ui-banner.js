@@ -26,7 +26,7 @@ const UiBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.uiBannerImage.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.uiBannerImage.childImageSharp.fluid} alt="busy marketing agency" className="img-fluid" />
 }
 
 export default UiBannerImg

@@ -26,7 +26,7 @@ const PpcBannerImg = () => {
         }
     `)
 
-    return <Img fluid={data.ppcBannerImg.childImageSharp.fluid} alt="" className="img-fluid" />
+    return <Img fluid={data.ppcBannerImg.childImageSharp.fluid} alt="Asian guys standing in a office" className="img-fluid" />
 }
 
 export default PpcBannerImg

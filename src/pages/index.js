@@ -8,16 +8,16 @@ import {Container, Row, Col} from "react-bootstrap";
 import Banner from "../components/landing/banner"
 import BannerImgOne from "../components/landing/banner-img-one";
 import BannerImgTwo from "../components/landing/banner-img-two";
-import HomeServicesImg from "../components/landing/home-services"
 import HomeAboutImg from "../components/landing/home-about"
 import RecentWorks from "../components/recent-work";
 import Marketing from "../components/marketing-cta";
+import BuildingIcon from "../components/icons/building-icon";
 
 
 const IndexPage = () => (
 
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Full-Service Digital Marketing Agency in Frisco Texas" />
 
     <Container fluid={true} className="mb-5 mt-3" >
         <Row className="mb-3" >
@@ -44,9 +44,10 @@ const IndexPage = () => (
         <Row className="mb-3" >
             <Col sm={12} md={12} lg={4} className="text-center p-3 d-flex justify-content-center mb-md-5">
                 <div className="my-auto col">
+                    <BuildingIcon/>
                     <h2>We’re More Than an Agency.</h2>
                     <p className="lead">
-                        Empuls3 is Dallas Based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your company.
+                        Empuls3 is Dallas based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your business.
                     </p>
                     <Link to="/our-work" className="btn btn-yellow">Who we are</Link>
                 </div>
@@ -62,7 +63,7 @@ const IndexPage = () => (
                             We help you plan and execute a digital marketing strategy that produces measurable growth.
                         </p>
 
-                        <Link to="/contact-us" className="btn btn-pink">call 972-798-8914</Link>
+                        <Link to="/contact-us" className="btn btn-pink">lets get started</Link>
                     </div>
                 </div>
             </Col>
@@ -98,7 +99,7 @@ const IndexPage = () => (
      <div className="bg-yellow-half mb-5">
          <Container>
              <Row className="mb-5">
-                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center mb-md-5 p-md-5">
+                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center min-height">
                      <div className="my-auto col p-3 text-center">
                          <h3 className="txt-pink" >
                              Strategy + Research
@@ -118,30 +119,27 @@ const IndexPage = () => (
                          <Link to="/brand-identity-and-strategy" className="btn btn-yellow">find out more</Link>
                      </div>
                  </Col>
-                 <Col sm={12} md={12} lg={4} className="p-md-0">
-                     <div className="txt-overlay">
-                         <HomeServicesImg/>
-                         <div className="centered text-center col txt-white p-3 p-md-5">
-                             <h3 className="txt-white" >
-                                 Design + Development
-                             </h3>
-                             <p>
-                                 UX + Responsive Design
-                             </p>
-                             <p>
-                                 Content Development
-                             </p>
-                             <p>
-                                 Web Application Development
-                             </p>
-                             <p>
-                                 Business Logic Development
-                             </p>
-                             <Link to="/web-development" className="btn btn-yellow">find out more</Link>
-                         </div>
+                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center min-height">
+                     <div className="my-auto col p-3 text-center">
+                         <h3 className="txt-pink" >
+                             Design + Development
+                         </h3>
+                         <p>
+                             UX + Responsive Design
+                         </p>
+                         <p>
+                             Content Development
+                         </p>
+                         <p>
+                             Web Application Development
+                         </p>
+                         <p>
+                             Business Logic Development
+                         </p>
+                         <Link to="/web-development" className="btn btn-yellow">find out more</Link>
                      </div>
                  </Col>
-                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center mb-md-5 p-md-5">
+                 <Col sm={12} md={12} lg={4} className="bg-purple d-flex justify-content-center min-height">
                      <div className="my-auto col p-3 text-center">
                          <h3 className="txt-pink" >
                              Analytics + Marketing
@@ -170,7 +168,7 @@ const IndexPage = () => (
                          Our team of professional designers, web developers, and Business Strategist can help you plan and execute your next design project
                      </p>
 
-                     <Link to="/analytics-and-conversion-tracking" className="btn btn-purple">lets talk</Link>
+                     <Link to="/contact-us" className="btn btn-purple">lets talk</Link>
                  </Col>
              </Row>
          </Container>
@@ -200,7 +198,7 @@ const IndexPage = () => (
                       Get in touch to find out why we are the best agency for your marketing plans.
                   </p>
 
-                  <Link to="/analytics-and-conversion-tracking" className="btn btn-pink btn-lg">get to know us more</Link>
+                  <Link to="/agency" className="btn btn-pink btn-lg">get to know us more</Link>
               </div>
           </div>
       </Container>

@@ -26,7 +26,7 @@ const AgencyImgSeven = () => {
         }
     `)
 
-    return <Img fluid={data.agencyImageSeven.childImageSharp.fluid} alt="" className="img-fluid mb-3" />
+    return <Img fluid={data.agencyImageSeven.childImageSharp.fluid} alt="The marketing team strategizing in a meeting" className="img-fluid mb-3" />
 }
 
 export default AgencyImgSeven

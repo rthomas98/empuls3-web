@@ -26,7 +26,7 @@ const ConstantContact = () => {
         }
     `)
 
-    return <Img fluid={data.constantContact.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 150 }} />
+    return <Img fluid={data.constantContact.childImageSharp.fluid} alt="Constant Contacts Icon" className="img-fluid" style={{ width: 150 }} />
 }
 
 export default ConstantContact

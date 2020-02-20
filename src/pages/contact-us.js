@@ -9,7 +9,7 @@ import Marketing from "../components/marketing-cta";
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Need marketing help?" />
 
     <div className="bg-pink-half mb-5 pt-5">
         <Container>
