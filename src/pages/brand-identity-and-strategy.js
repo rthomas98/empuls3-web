@@ -15,7 +15,7 @@ const BrandPage = () => (
     <SEO title="Branding Agency in Frisco" />
 
     <Container fluid={true} className="mb-5 mt-3">
-        <Row classname="">
+        <Row className="">
             <Col sm={6} md={12} lg={6} className="p-0">
                 <BrandBannerImg/>
             </Col>

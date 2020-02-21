@@ -37,6 +37,13 @@ module.exports = {
       options: {
         endpoint: '610613414e1dbea2ce9e55cf8&amp;id=900bdfe01c'
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-128663001-1",
+      },
+    },
   ],
 }

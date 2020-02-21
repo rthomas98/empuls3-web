@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 import UiBannerImg from "../components/ui/ui-banner";
 import UiImgOne from "../components/ui/ui-img-1";
 import UiImgTwo from "../components/ui/ui-img-2";
-import BrandImgTwo from "../components/brand/brand-img-2";
 import UiImgThree from "../components/ui/ui-img-3";
 import UiImgFour from "../components/ui/ui-img-4";
 import Design from "../components/design-cta";
