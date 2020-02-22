@@ -3,6 +3,7 @@ module.exports = {
     title: `Empuls3`,
     description: `Empuls3 is a Frisco digital marketing agency helping our clients grow. We specialize in web design, marketing, branding &amp; search engine optimization. Contact us to learn more!`,
     author: `@empuls3`,
+    siteUrl: `https://www.empuls3.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
