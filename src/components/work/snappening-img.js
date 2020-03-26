@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const SnappeningImg = () => {
     const data = useStaticQuery(graphql`
         query {
-            snappeningImg: file(relativePath: { eq: "Snappening.png" }) {
+            snappeningImg: file(relativePath: { eq: "Snappening.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 1170) {
                         ...GatsbyImageSharpFluid

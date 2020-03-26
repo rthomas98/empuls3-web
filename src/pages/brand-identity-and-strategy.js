@@ -7,7 +7,6 @@ import  { Container, Row, Col } from "react-bootstrap"
 import BrandBannerImg from "../components/brand/brand-banner";
 import BrandImgTwo from "../components/brand/brand-img-2";
 import BrandImgThree from "../components/brand/brand-img-3";
-import BrandImgFour from "../components/brand/brand-img-4";
 import Design from "../components/design-cta";
 
 const BrandPage = () => (

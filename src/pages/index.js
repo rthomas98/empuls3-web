@@ -47,7 +47,7 @@ const IndexPage = () => (
                     <BuildingIcon/>
                     <h2>We’re More Than an Agency.</h2>
                     <p className="lead">
-                        Empuls3 is Dallas based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your business.
+                        Empuls3 is a Dallas based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your business.
                     </p>
                     <Link to="/our-work" className="btn btn-yellow">Who we are</Link>
                 </div>

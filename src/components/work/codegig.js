@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const CodegigImg = () => {
     const data = useStaticQuery(graphql`
         query {
-            codegigImg: file(relativePath: { eq: "codegig.png" }) {
+            codegigImg: file(relativePath: { eq: "codegig.jpg" }) {
                 childImageSharp {
                     fluid(maxWidth: 1170) {
                         ...GatsbyImageSharpFluid
